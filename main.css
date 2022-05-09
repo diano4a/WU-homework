@@ -1,0 +1,185 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #201b2d;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    line-height: 1.7em;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    background: rgba(78,192,254,1);
+    background: -moz-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78,192,254,1)), color-stop(100%, rgba(55,144,217,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: linear-gradient(135deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ec0fe', endColorstr='#3790d9', GradientType=1 );
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 146px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer {
+    margin-top: 147px;
+}
+
+.title {
+    font-size: 37px;
+    width: 557px;
+}
+
+.title span {
+    font-size: 59px;
+}
+
+.intro {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    width: 385px;
+    margin-top: 45px;
+    margin-bottom: 38px;   
+}
+
+.btn {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    color: #2e2a1b;
+    background: #ffd429;
+    display: block;
+    padding: 21px;
+    width: 222px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0,5s ease;
+}
+
+.btn:hover {
+    background: #f1c827;
+}
+
+.suit {
+    padding-top: 55px;
+}
+
+/* секция 1 */
+.future {
+    padding-bottom: 120px;
+}
+
+.section-title {
+    padding-top: 105px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.future-sections {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+}
+
+.future-section {
+    width: 290px;
+    background: url('../img/img1.jpg') no-repeat center top;
+    padding-top: 100px;
+}
+
+.future-section-title {
+    font-size: 19px;
+    text-align: center;
+}
+
+.future-section-text {
+    font-family: 'Ubunto', sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.future-section-travel {
+    width: 260px;
+    background: url('../img/img2.jpg') no-repeat center top;
+}
+
+.future-section-value {
+    width: 296px;
+    background: url('../img/img3.jpg') no-repeat center top;
+}
+
+/* cекция 2 */
+
+.form-section {
+    background: #ecf3f8;
+    padding-top: 104px;
+    padding-bottom: 104px;
+}
+
+.form {
+    margin-top: 65px;
+    margin-left: 413px;
+    
+}
+
+.input {
+    width: 340px;
+    display: block;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 15px;
+    border: 1px solid #bbbbbb;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 3px;
+    height: 46px;
+    padding-left: 23px;
+    color: #201b2d; 
+    opacity: 65%;
+    
+}
+
+.btn-form {
+    width: 340px;
+    height: 54px;
+    border: 0;
+    cursor: pointer;
+    display: inline;
+    text-align: center;
+    padding: 0px;
+}
+
+.footer {
+    background: #164d7a;
+    padding: 60px 0;
+}
+
+.credits {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
